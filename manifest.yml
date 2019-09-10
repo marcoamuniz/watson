@@ -1,0 +1,14 @@
+applications:
+- name: watson-assistant-multi-bot-agent
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1
+  random-route: true
+  env:
+    WORKSPACE_ID_AGENT: 75ec5038-8892-4617-b9c3-d6b5653941b7
+    WORKSPACE_ID_TRAVEL: 171a5e2e-c2f2-4ca3-a081-bd90d09a203d
+    WORKSPACE_ID_WEATHER: 0bedb65d-f0c6-4f56-b33e-cf57cc6f71f2
+    ASSISTANT_IAM_API_KEY: rpTpI1IhYsPgz_xcl77AUjKUtq4uHn0T-EXDuvWkTLNU
+    ASSISTANT_IAM_URL: https://gateway.watsonplatform.net/assistant/api
+    VERSION: <version of waston assistant sdk apis>
