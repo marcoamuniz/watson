@@ -6,9 +6,9 @@ applications:
   instances: 1
   random-route: true
   env:
-    WORKSPACE_ID_AGENT: 75ec5038-8892-4617-b9c3-d6b5653941b7
-    WORKSPACE_ID_TRAVEL: 171a5e2e-c2f2-4ca3-a081-bd90d09a203d
-    WORKSPACE_ID_WEATHER: 0bedb65d-f0c6-4f56-b33e-cf57cc6f71f2
-    ASSISTANT_IAM_API_KEY: rpTpI1IhYsPgz_xcl77AUjKUtq4uHn0T-EXDuvWkTLNU
-    ASSISTANT_IAM_URL: https://gateway.watsonplatform.net/assistant/api
+    WORKSPACE_ID_AGENT: 99dd8024-73f2-4012-9510-7653e7dfd941
+    WORKSPACE_ID_TRAVEL: 3575c88b-f523-4e29-930e-813fc1b101dc
+    WORKSPACE_ID_WEATHER: 352cadc7-de75-4dda-b35c-ee99896cff35
+    ASSISTANT_IAM_API_KEY: Ht5BNPBxNP16ggDZ0pWhclCMz0jAItzz4w2S4FABRFIl
+    ASSISTANT_IAM_URL: https://gateway-wdc.watsonplatform.net/assistant/api
     VERSION: <version of waston assistant sdk apis>
